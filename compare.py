@@ -72,7 +72,7 @@ def check_age():
         print(yaml.dump({"output":"Figure not saved please check function code"}))
 
 def check_sex():
-    if os.path.exists("/data/sex_relation.png"):
+    if os.path.exists("/data/Sex_relation.png"):
         print(yaml.dump({"output":"Function runs successfully"}))
     else:
         print(yaml.dump({"output":"Figure not saved please check function code"}))
